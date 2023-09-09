@@ -168,18 +168,14 @@ video {
 }
 
 #scroller h4 {
-  display: inline-block;
-  font-size: 120px;
-  font-weight: 900;
-  font-family: gilroy;
-  margin-right: 20px;
-  transition: all linear 0.3s;
-  color: #000;
-  -webkit-text-stroke: 2px #ffffff;
-}
-#scroller h4:hover {
-  color: #95c11e;
-  -webkit-text-stroke: 2px #95c11e;
+ display: inline-block;
+ font-size: 100px;
+ font-weight: 600;
+ font-family: sans-serif;
+ margin-right: 10px;
+ color: #000;
+ transition: all linear 0.5sec;
+ -webkit-text-stroke: 2px #95c11e;
 }
 
 @keyframes scroll {
